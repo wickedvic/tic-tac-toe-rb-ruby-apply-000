@@ -36,7 +36,7 @@ def valid_move?(board, index)
   end
   
   def turn(user_input)
-    puts 
+    puts "Please pick from 1-9"
     
   end
   
