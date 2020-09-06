@@ -35,6 +35,11 @@ def valid_move?(board, index)
    index.between?(0,8) && !position_taken?(board, index)
   end
   
+  def turn(user_input)
+    puts 
+    
+  end
+  
   def turn_count(board)
     board.count do |token|
       token == "X" || token == "O"
@@ -48,5 +53,7 @@ def valid_move?(board, index)
       current_player = "O"
     end
   end
+  
+  def 
   
   
