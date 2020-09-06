@@ -36,8 +36,8 @@ def valid_move?(board, index)
   end
   
   def turn(user_input)
-    puts "Please pick from 1-9"
-    
+    puts "Please pick from 1-9:"
+    input.gets 
   end
   
   def turn_count(board)
