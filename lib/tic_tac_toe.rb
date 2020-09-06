@@ -36,7 +36,8 @@ def valid_move?(board, index)
   end
   
   def turn_count(board)
-    board.count
+    board.count do |token|
+      if token
   end
   
   
