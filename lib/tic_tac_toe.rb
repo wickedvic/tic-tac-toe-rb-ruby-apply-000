@@ -37,7 +37,8 @@ def valid_move?(board, index)
   
   def turn_count(board)
     board.count do |token|
-      if token
+      token == "X" || token == "O"
+      end 
   end
   
   
