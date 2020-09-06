@@ -41,6 +41,9 @@ def valid_move?(board, index)
     index = input_to_index(user_input)
     if valid_move?(board, index) 
       move(board, index, player)
+      display_board(board)
+    else
+      
   end
   
   def turn_count(board)
