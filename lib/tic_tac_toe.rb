@@ -60,7 +60,11 @@ def valid_move?(board, index)
       current_player = "O"
     end
   end
+
+def won?(board)
   
+  
+end
   
   
   
