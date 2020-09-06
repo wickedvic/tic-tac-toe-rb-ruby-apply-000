@@ -81,3 +81,8 @@ end
     won?(board) || draw?(board) || full?(board)
   end
   
+  def winner(board)
+    
+    
+  end
+  
