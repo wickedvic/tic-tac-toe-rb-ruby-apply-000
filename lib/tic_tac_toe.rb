@@ -70,7 +70,7 @@ def won?(board)
 end
   
   def full?(board)
-    board.all? {|token| token == "X" || "O"}
+    board.all? {|token| token == "X" || token == "O"}
   end
   
   
