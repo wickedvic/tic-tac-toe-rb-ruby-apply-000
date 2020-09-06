@@ -35,9 +35,9 @@ def valid_move?(board, index)
    index.between?(0,8) && !position_taken?(board, index)
   end
   
-  def turn(user_input)
+  def turn(board)
     puts "Please pick from 1-9:"
-    input.gets 
+    user_input = gets.strip 
   end
   
   def turn_count(board)
